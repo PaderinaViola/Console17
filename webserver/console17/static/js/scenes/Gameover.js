@@ -1,11 +1,7 @@
-import { Scene } from 'phaser';
+import { Scene } from 'https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.esm.js';
 
 export class GameOver extends Scene
 {
-    camera: Phaser.Cameras.Scene2D.Camera;
-    background: Phaser.GameObjects.Image;
-    gameover_text : Phaser.GameObjects.Text;
-
     constructor ()
     {
         super('GameOver');

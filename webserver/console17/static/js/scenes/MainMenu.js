@@ -1,11 +1,7 @@
-import { Scene, GameObjects } from 'phaser';
+import { Scene } from 'https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.esm.js';
 
 export class MainMenu extends Scene
 {
-    background: GameObjects.Image;
-    logo: GameObjects.Image;
-    title: GameObjects.Text;
-
     constructor ()
     {
         super('MainMenu');
